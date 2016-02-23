@@ -1,0 +1,47 @@
+body {
+	font-family: Verdana, sans-serif;
+	color: rgb(0,0,0);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#heading {
+	color: rgb(36,201,48);
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 18px;
+}
+
+#heroImage {
+	border-radius: 18px;
+	border: 1px solid rgb(200,200,200);
+}
+
+#about {
+	padding-top: 14px;
+	padding-bottom: 12px;
+}
+
+#resumeContainer {
+	text-align: center;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+#resume {
+	text-align: left;
+}
+
+#contact {
+	padding-top: 12px;
+	color: rgb(36,201,48);
+	font-weight: bold;
+}
+
+#link {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
