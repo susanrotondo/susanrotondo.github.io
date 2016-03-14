@@ -1,0 +1,98 @@
+html { 
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+	height: 200px;
+/*	background: url("../images/headerDrawingCrop.jpg");  ------Uncomment both lines later - commented out only for homework purposes-------
+	background-size: cover;                              ------Uncomment both lines later - commented out only for homework purposes-------*/
+	background-color: #FFED74;
+}
+
+nav {
+	background-color: #E8C66A; /*--------Remove later - present only for homework purposes-------*/
+}
+
+#navBar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.navLinks {
+	display: inline;
+	margin: 12px 18px;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: rgb(148,148,148);
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+article {
+	margin-top: 40px;
+	background-color: #E89C6C; /*--------Remove later - present only for homework purposes-------*/
+}
+
+#resumeWrapper {
+	width: 750px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFE2B8; /*--------Remove later - present only for homework purposes-------*/
+}
+
+#exhibsHeading {
+	font-size: 20px;
+	margin-top: 28px;
+	margin-bottom: 24px;
+}
+
+#resumeList, #awardsList {
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 200%;
+	font-family: 'Droid Serif', serif;
+}
+
+.showTitle {
+	font-style: italic;
+}
+
+#awardsHeading {
+	font-size: 20px;
+	margin-top: 28px;
+	margin-bottom: 24px;
+}
+
+#forMoreInfo {
+	font-size: 14px;
+	font-weight: bolder; 
+	margin-top: 36px;
+}
+
+footer {
+	height: 20px; /*--------Remove later - present only for homework purposes-------*/
+	background-color: #FF957E; /*--------Remove later - present only for homework purposes-------*/
+}
+
+#footerCopy {
+	width: 300px;
+	position: absolute;
+	right: 70px;
+	color: rgb(148,148,148);
+	font-size: 14px;
+	text-align: right;
+	padding-right: 16px;
+}
