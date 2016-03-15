@@ -1,0 +1,62 @@
+html { 
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  	background: url("../images/treeHomePageCrop.jpg") 
+  	no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#homeSelfPort {
+	position: absolute;
+	top: 80px;
+	right: 90px;
+}
+
+#homeNavContainer {
+	background-color: rgb(148,148,148);
+	border-radius: 18px;
+	width: 300px;
+	height: 450px;
+	position: absolute;
+	top: 400px;
+	right: 70px;
+}
+
+.navLinksDivs {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.navLinks {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 26px;
+	letter-spacing: 6px;
+}
+
+.navLinks:hover {
+	font-size: 28px;
+}
+
+footer {
+	width: 100%;
+    bottom: 0;
+    position: fixed;
+}
+
+#footerCopy {
+	width: 300px;
+	position: absolute;
+	bottom: 20px;
+	right: 70px;
+	font-family: 'Noto Sans', sans-serif;
+	color: rgb(148,148,148);
+	font-size: 14px;
+	text-align: right;
+	padding-right: 16px;
+}

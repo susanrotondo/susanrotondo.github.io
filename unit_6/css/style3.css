@@ -1,0 +1,58 @@
+#fiveColumns {
+	width: 950px;
+	margin: 0 auto;
+}
+
+.columns {
+	height: 600px;
+	width: 19%;       /*     Adjust to 20% after removeing column borders     */
+}
+
+#cOne {
+	background-color: #E582A2;   /*     Don't forget to remove color and border later     */
+	border: 1px black solid;
+	float: left;
+}
+
+#cTwo {
+	background-color: #E5ABA2;    /*     Don't forget to remove color and border later     */
+	border: 1px black solid;
+	float: left;
+}
+
+#cThree {
+	background-color: #E5AB82;     /*     Don't forget to remove color and border later     */
+	border: 1px black solid;
+	float: left;
+}
+
+#cFour {
+	background-color: #E55B64;     /*     Don't forget to remove color and border later     */
+	border: 1px black solid;
+	float: left;
+}
+
+#cFive {
+	background-color: #E55B88;     /*     Don't forget to remove color and border later     */
+	border: 1px black solid;
+	float: left;
+}
+
+#fiveColumns {                     /*     Don't forget to remove color border and padding later     */
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.clearFix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer {
+	clear: both;
+}
