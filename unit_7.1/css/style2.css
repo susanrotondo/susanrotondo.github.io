@@ -1,0 +1,93 @@
+html { 
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+	height: 200px;
+	background: url("../images/headerDrawingCrop.jpg");
+	background-size: cover;
+}
+
+#navBar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px; 
+}
+
+.navLinks {
+	display: inline;
+	margin: 12px 18px;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: rgb(148,148,148);
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navLinks a:hover {
+	color: rgb(0,0,0);
+}
+
+article {
+	margin-top: 20px;
+}
+
+#resumeWrapper {
+	width: 750px;
+	height: 680px;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+}
+
+#exhibsHeading {
+	font-size: 20px;
+	margin-top: 28px;
+	margin-bottom: 24px;
+}
+
+#resumeList, #awardsList {
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 200%;
+	font-family: 'Droid Serif', serif;
+}
+
+.showTitle {
+	font-style: italic;
+}
+
+#awardsHeading {
+	font-size: 20px;
+	margin-top: 28px;
+	margin-bottom: 24px;
+}
+
+#forMoreInfo {
+	font-size: 14px;
+	font-weight: bolder; 
+	margin-top: 36px;
+}
+
+#footerCopy {
+	width: 300px;
+	position: absolute;
+	right: 70px;
+	color: rgb(148,148,148);
+	font-size: 14px;
+	text-align: right;
+	padding-right: 16px;
+}

@@ -1,0 +1,42 @@
+#mainContainer {
+	width: 100%;
+	height: 680px;
+}
+
+#space {
+	height: 80px;
+	width: 100%;
+}
+
+#email {
+	height: 120px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#emailToLink {
+	text-decoration: none;
+	color: rgb(148,148,148);
+}
+
+#emailToLink:hover {
+	color: rgb(0,0,0);
+}
+
+#social {
+	text-align: center;
+}
+
+.socialLinks {
+	display: inline;
+	margin: 0 10px;
+}
+
+.socialLinks img {
+	width: 35px;
+	height: 35px;	
+}
+
+.socialLinks a {
+	text-decoration: none;
+}
