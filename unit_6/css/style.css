@@ -17,7 +17,7 @@ html {
 }
 
 #homeNavContainer {
-	background-color: rgb(148,148,148);
+	background-color: rgb(2,122,89);
 	border-radius: 18px;
 	width: 300px;
 	height: 450px;
@@ -40,7 +40,7 @@ html {
 }
 
 .navLinks:hover {
-	font-size: 28px;
+	color: rgb(0,0,0);
 }
 
 footer {
