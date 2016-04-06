@@ -1,0 +1,99 @@
+html { 
+	height: 100%;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+}
+
+#wrapper {
+	height: 100%;
+}
+
+header {
+	height: 20%;
+	background: url("../images/headerDrawingCrop.jpg");
+	background-size: cover;
+}
+
+#navBar {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 1.56em;
+    margin-bottom: 1.25em; 
+}
+
+.navLinks {
+	display: inline;
+	margin: 0.75em 1.125em;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: rgb(148,148,148);
+	font-size: 1.5em;
+	letter-spacing: 0.075em;
+}
+
+.navLinks a:hover {
+	color: rgb(0,0,0);
+}
+
+#resumeWrapper {
+	width: 55%;
+	height: 37.5em;
+	margin: 0 auto;
+	text-align: center;
+	overflow: auto;
+}
+
+#exhibsHeading {
+	font-size: 1.25em;
+	margin-top: 1.25em;
+	margin-bottom: 1.5em;
+}
+
+#resumeList, #awardsList {
+	width: 100%;
+	text-align: left;
+	font-size: 0.875em;
+	line-height: 200%;
+	font-family: 'Droid Serif', serif;
+}
+
+.showTitle {
+	font-style: italic;
+}
+
+#awardsHeading {
+	font-size: 1.25em;
+	margin-top: 1.75em;
+	margin-bottom: 1.5em;
+}
+
+#forMoreInfo {
+	font-size: 0.875em;
+	font-weight: bolder; 
+	margin-top: 2.25em;
+}
+
+#space {
+	width: 100%;
+	height: 5em;
+}
+
+#footerCopy {
+	width: 20%;
+	position: absolute;
+	right: 4.375em;
+	color: rgb(148,148,148);
+	font-size: 0.875em;
+	text-align: right;
+	padding-right: 1em;
+}
