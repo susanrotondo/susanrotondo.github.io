@@ -1,0 +1,317 @@
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+/*full-size desktop styling*/	
+@media only screen and (min-width: 800px) {
+	html {
+	  	background: url("../images/treeHomePageCrop.jpg"); 
+	  	no-repeat center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+	header {
+		height: 5%;
+	}
+
+	#mobileHeader {
+		display: none;
+	}
+
+	#homeImgMobile {
+		display: none;
+	}
+
+	#twoColumns {
+		width: 100%;
+		margin: 0 auto;
+		height: 95%;
+	}
+
+	.columns {
+		height: 100%;
+		text-align: center;
+	}
+
+	#cOne {
+		float: left;
+		width: 65%;
+	}
+
+	#cTwo {
+		float: left;
+		width: 35%;
+	}
+
+	.clearFix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+
+	#homeSelfPortDesktop {
+		margin-bottom: 3.75em;
+		}
+
+	#homeSelfPortImg {
+		width: 55%;
+	}
+
+	#homeNavContainer {
+		background-color: rgb(2,122,89);
+		border-radius: 1em;
+		width: 64%;
+		height: 30em;
+		margin: 0 auto;
+	}
+
+	.navLinksDivs {
+		text-align: center;
+		height: 25%;
+	}
+
+	.navLinks {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 1.625em;
+		letter-spacing: 0.375em;
+		line-height: 120px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	.navLinks:hover {
+		color: rgb(0,0,0);
+	}
+
+	#footerCopy {
+		font-family: 'Noto Sans', sans-serif;
+		color: rgb(2,122,89);
+		font-size: 0.875em;
+		width: 65%;
+		height: 2em;
+		line-height: 2em;
+		text-align: right;
+		margin: 0 auto;	
+	}
+
+}
+
+/*tablet styling*/	
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+	html {
+	  	background: url("../images/tabletBackground.jpg"); 
+	  	center center fixed; 
+	  	-webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	  	background-repeat: no-repeat;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+	header {
+		height: 5%;
+	}
+
+	#mobileHeader {
+		display: none;
+	}
+
+	#homeImgMobile {
+		display: none;
+	}
+
+	#twoColumns {
+		width: 100%;
+		margin: 0 auto;
+		height: 95%;
+	}
+
+	.columns {
+		height: 100%;
+		text-align: center;
+	}
+
+	#cOne {
+		float: left;
+		width: 55%;
+	}
+
+	#cTwo {
+		float: left;
+		width: 45%;
+	}
+
+	.clearFix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+	}
+
+	#homeSelfPortDesktop {
+		margin-bottom: 3.75em;
+		}
+
+	#homeSelfPortImg {
+		width: 65%;
+	}
+
+	#homeNavContainer {
+		background-color: rgb(2,122,89);
+		border-radius: 1em;
+		width: 80%;
+		height: 30em;
+		margin: 0 auto;
+	}
+
+	.navLinksDivs {
+		text-align: center;
+		height: 25%;
+	}
+
+	.navLinks {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 1.625em;
+		letter-spacing: 0.2em;
+		line-height: 120px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	.navLinks:hover {
+		color: rgb(0,0,0);
+	}
+
+	#footerCopy {
+		font-family: 'Noto Sans', sans-serif;
+		color: rgb(2,122,89);
+		font-size: 1em;
+		font-weight: bold;
+		width: 65%;
+		height: 2em;
+		line-height: 2em;
+		text-align: right;
+		margin: 0 auto;	
+	}
+}
+
+/*mobile styling*/	
+@media only screen and (max-width: 500px) {
+	html {
+		background: none;
+	}
+
+	body {
+		font-size: 12px;
+	}
+
+	header {
+		height: 4em;
+		background-color: rgb(2,122,89);
+	}
+
+	#mobileHeader {
+		text-align: center;
+		color: rgb(255, 255, 255);
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 2em;
+		line-height: 48px;
+	}
+
+	#cOne {
+		height: 0;
+		float: none;
+	}
+
+	#homeSelfPortImg {
+		display: none;
+	}
+
+	#homeImgMobile {
+		text-align: center;
+		margin: 1em 0;
+	}
+
+	#mobileHomeImg {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	#homeNavContainer {
+		background-color: rgb(2,122,89);
+		width: 100%;
+		height: 20em;
+		margin: 0 auto;
+	}
+
+	.navLinksDivs {
+		text-align: center;
+		height: 33.3%;
+		border-bottom: solid rgb(255,255,255);
+	}
+
+	#resumeLinkDiv {
+		display: none;
+	}
+
+	.navLinks {
+		text-decoration: none;
+		color: rgb(255, 255, 255);
+		font-family: 'Noto Sans', sans-serif;
+		font-size: 2.2em;
+		letter-spacing: 0.375em;
+		line-height: 65px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	.navLinks:hover {
+		color: rgb(0,0,0);
+	}
+
+	#footerCopy {
+		font-family: 'Noto Sans', sans-serif;
+		color: rgb(2,122,89);
+		font-size: 1.2em;
+		font-weight: bold;
+		width: 100%;
+		height: 2.2em;
+		line-height: 2.2em;
+		text-align: right;
+	}
+}
+
+
+
+
+
+
+
+
