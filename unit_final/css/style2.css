@@ -53,7 +53,7 @@ header {
 	height: 37.5em;
 	margin: 0 auto;
 	text-align: center;
-	overflow: auto;
+	overflow: scroll;
 }
 
 #exhibsHeading {
