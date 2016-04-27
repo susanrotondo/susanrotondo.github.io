@@ -48,6 +48,10 @@
 	width: 11.25em;
 }
 
+.galLandPicLink {
+	text-decoration: none;
+}
+
 .galLinks a {
 	text-decoration: none;
 	color: rgb(0,0,0);

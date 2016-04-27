@@ -28,16 +28,20 @@ header {
     margin-bottom: 1.25em; 
 }
 
-.navLinks {
+.navLinks, #currentPageLink {
 	display: inline;
 	margin: 0.75em 1.125em;
 }
 
-.navLinks a {
+.navLinks a, #currentPageLink {
 	text-decoration: none;
 	color: rgb(148,148,148);
 	font-size: 1.5em;
 	letter-spacing: 0.075em;
+}
+
+#currentPageLink {
+	margin: 0;
 }
 
 .navLinks a:hover {
@@ -125,14 +129,18 @@ header {
 		background-size: cover;
 	}
 
-	.navLinks {
+	.navLinks, #currentPageLink {
 		margin: 0.75em 0.8em;
 	}
 
-	.navLinks a {
+	.navLinks a, #currentPageLink {
 		font-size: 1.4em;
 		letter-spacing: 0.04em;
 		font-weight: bolder;
+	}
+
+	#currentPageLink {
+		margin: 0;
 	}
 
 	#mainContainer {
@@ -195,6 +203,10 @@ header {
 		line-height: 48px;
 	}
 
+	#mobileHeaderText {
+		margin: 0;
+	}
+
 	#navBar {
 	    list-style-type: none;
 	    padding: 0;
@@ -212,11 +224,15 @@ header {
 		line-height: 18px;
 	}
 
-	.navLinks a {
+	.navLinks a, #currentPageLink {
 		color: rgb(2,122,89);
 		font-size: 2em;
 		font-weight: bold;
 		letter-spacing: 0.2em;
+	}
+
+	#currentPageLink {
+		margin: 0;
 	}
 
 	#footerCopy {

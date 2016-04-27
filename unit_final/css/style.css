@@ -93,13 +93,17 @@ body {
 		height: 25%;
 	}
 
-	.navLinks {
+	.navLinks, #currentPageLink {
 		text-decoration: none;
 		color: rgb(255, 255, 255);
 		font-family: 'Noto Sans', sans-serif;
 		font-size: 1.625em;
 		letter-spacing: 0.375em;
 		line-height: 120px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	#currentPageLink {
+		margin: 0;
 	}
 
 	.navLinks:hover {
@@ -198,13 +202,17 @@ body {
 		height: 25%;
 	}
 
-	.navLinks {
+	.navLinks, #currentPageLink {
 		text-decoration: none;
 		color: rgb(255, 255, 255);
 		font-family: 'Noto Sans', sans-serif;
 		font-size: 1.625em;
 		letter-spacing: 0.2em;
 		line-height: 120px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	#currentPageLink {
+		margin: 0;
 	}
 
 	.navLinks:hover {
@@ -247,6 +255,10 @@ body {
 		line-height: 48px;
 	}
 
+	#mobileHeaderText {
+		margin: 0;
+	}
+
 	#cOne {
 		height: 0;
 		float: none;
@@ -283,13 +295,17 @@ body {
 		display: none;
 	}
 
-	.navLinks {
+	.navLinks, #currentPageLink {
 		text-decoration: none;
 		color: rgb(255, 255, 255);
 		font-family: 'Noto Sans', sans-serif;
 		font-size: 2.2em;
 		letter-spacing: 0.375em;
 		line-height: 65px; /* ------------------------------------------------>   ** WHY CAN'T I SWITCH TO EM'S ***/
+	}
+
+	#currentPageLink {
+		margin: 0;
 	}
 
 	.navLinks:hover {
