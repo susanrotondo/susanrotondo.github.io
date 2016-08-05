@@ -1,4 +1,4 @@
-html { 
+html {
 	height: 100%;
 	overflow: hidden;
 }
@@ -25,7 +25,7 @@ header {
     padding: 0;
     text-align: center;
     margin-top: 1.56em;
-    margin-bottom: 1.25em; 
+    margin-bottom: 1.25em;
 }
 
 .navLinks, #currentPageLink {
@@ -54,6 +54,11 @@ header {
 	margin: 0 auto;
 	text-align: center;
 	overflow: scroll;
+	background-color: rgba(242, 242, 242, 0.5);
+}
+
+.tData {
+	padding: 0.4em;
 }
 
 #exhibsHeading {
@@ -82,7 +87,7 @@ header {
 
 #forMoreInfo {
 	font-size: 0.875em;
-	font-weight: bolder; 
+	font-weight: bolder;
 	margin-top: 2.25em;
 }
 
@@ -102,7 +107,7 @@ header {
 }
 
 
-/*full-size desktop styling*/	
+/*full-size desktop styling*/
 @media only screen and (min-width: 800px) {
 	body {
 		font-size: 16px;
@@ -113,7 +118,7 @@ header {
 	}
 }
 
-/*tablet styling*/	
+/*tablet styling*/
 @media only screen and (min-width: 500px) and (max-width: 800px) {
 	body {
 		font-size: 16px;
@@ -177,7 +182,7 @@ header {
 	}
 }
 
-/*mobile styling*/	
+/*mobile styling*/
 @media only screen and (max-width: 500px) {
 	html {
 		overflow: scroll;
@@ -239,6 +244,3 @@ header {
 		display: none;
 	}
 }
-
-
-
